@@ -1,0 +1,47 @@
+*,
+*:before *:after {
+  box-sizing: border-box;
+}
+html {
+  font-family: monospace;
+  font-size: 25px;
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+main {
+  --count: 0;
+  background-image: linear-gradient(
+    90deg,
+    gold calc(var(--count) * 1%),
+    white 0%
+  );
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+p {
+}
+
+.page-header {
+  background-color: gold;
+  padding: 1rem;
+}
+
+#CounterText {
+  font-size: 3rem;
+}
+
+#btnReset {
+  position: fixed;
+  right: 30%;
+  top: 100px;
+  font-size: 30px;
+}
