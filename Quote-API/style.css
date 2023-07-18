@@ -29,6 +29,7 @@ body {
 main {
   display: grid;
   justify-content: center;
+  margin: 10%;
 }
 .button {
   background-color: rgb(221, 252, 244);
