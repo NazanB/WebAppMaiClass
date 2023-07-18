@@ -10,29 +10,33 @@ html {
 
 header {
   display: flex;
-  align-items: baseline;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
   height: 100%;
   font-size: 1em;
-  padding: 1rem 1rem;
-
+  padding: 2rem;
   background-color: rgb(171, 241, 218);
 }
-
+h1 {
+  margin: 2%;
+  padding: 1rem;
+}
 body {
   margin: 0;
   background-color: rgba(241, 215, 157, 0.3);
 }
-
+main {
+  display: grid;
+  justify-content: center;
+}
 .button {
   background-color: rgb(221, 252, 244);
   border: 0;
   border-radius: 3rem;
-
   cursor: pointer;
   display: flex;
   justify-content: baseline;
   align-items: flex-end;
   position: relative;
-  right: -50%;
 }
