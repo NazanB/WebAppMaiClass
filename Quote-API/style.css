@@ -1,0 +1,38 @@
+*,
+*:before *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  height: 100%;
+  font-size: 1em;
+  padding: 1rem 1rem;
+
+  background-color: rgb(171, 241, 218);
+}
+
+body {
+  margin: 0;
+  background-color: rgba(241, 215, 157, 0.3);
+}
+
+.button {
+  background-color: rgb(221, 252, 244);
+  border: 0;
+  border-radius: 3rem;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-end;
+  position: relative;
+  right: -50%;
+}
