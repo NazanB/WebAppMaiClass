@@ -12,8 +12,8 @@ function randomQuote() {
   fetch("https://dummy-apis.netlify.app/api/quote")
     .then((response) => response.json())
     .then((quoteData) => {
-      quoteField.innerHTML = quoteData.quote;
-      authorField.innerHTML = quoteData.author;
+      quoteField.innerText = quoteData.quote;
+      authorField.innerText = quoteData.author;
     });
 }
 
